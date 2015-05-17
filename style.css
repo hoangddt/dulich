@@ -1,0 +1,97 @@
+* {padding: 0;margin: 0;font-size: 15px;}
+body {
+	background: #fff;
+	font-family: Arial, san-serif;
+}
+ul {
+	list-style: none;
+}
+a {
+	color: #529EDA;
+	text-decoration: none;
+}
+/*Header*/
+.header, #wrapper, .footer {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	background: #fff;
+}
+.header .title {
+	margin-left: 50px;
+	padding: 10px;
+}
+.header .title h2 {
+	font-size: 40px;
+	font-family: 'Open Sans', Arial, san-serif;
+	font-weight: bold;
+}
+.header .title h3{
+	font-size: 20px;
+	font-family: 'Open Sans', Arial, san-serif;
+	color: #ddd;
+}
+ul.header-link {
+	float: left;
+	height: 40px;
+	width: 960px;
+	background: rgba(50,80,200,.7);
+}
+
+ul.header-link li {
+	float: left;
+	margin-right: 8px;
+	margin-top: 7px;
+}
+ul.header-link li a{
+	color: #fff;
+	font-weight: bold;
+	border-left: 2px solid #f99;
+	font-size: 18px;
+}
+
+ul.header-link li a:hover{
+	color: #ddd;
+}
+
+.clr{
+	clear: both;
+}
+
+/*Wrapper*/
+#wrapper{
+	background: #fff;
+}
+
+#wrapper section {
+	margin-top: 9px;
+	border: 1px solid #ddd;
+	width: 33%;
+	float: left;
+}
+#wrapper section h3{
+	color: #0B2332;
+	
+	font-size: 20px;
+
+}
+#wrapper section h3 a{
+	font-size: 18px;
+
+}
+
+#wrapper section ul{
+	margin-top: 10px;
+}
+
+#wrapper section ul a{
+	padding: 5px;
+	margin-top: 7px;
+}
+.footer{
+	background: #ddd;
+	clear: both;
+	padding: 20px;
+}
